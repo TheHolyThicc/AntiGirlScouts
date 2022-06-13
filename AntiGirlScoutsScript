@@ -15,7 +15,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/TheHolyThicc/AntiGir
 																																								silem = false
 																																								color = game.CoreGui.AntiGirlScouts.Main.FunctionFrame.MiscFrame.SilentAim.SilentFrame
 																																								color:GetPropertyChangedSignal("BackgroundColor3"):Connect(function()
-																																								if color.BackRoundColor3 == Color3.fromRGB(0, 255, 0) then
+																																								if color.BackgroundColor3 == Color3.fromRGB(0, 255, 0) then
 																																								silem = true
 																																								else silem = false
 																																								end
