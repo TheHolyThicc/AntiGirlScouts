@@ -16,7 +16,8 @@ new = game:GetService("CoreGui").AntiGirlScouts.Main.PlayerMenuFrame.PlayerSelec
 new.Name = game.Players.LocalPlayer.Name  
 new.Text = game.Players.LocalPlayer.Name 
 new.Parent = game:GetService("CoreGui").AntiGirlScouts.Main.PlayerMenuFrame.PlayerSelectFrame.PlayerSelectScrolling 
-new.Visible = true new.Selectable = true 
+new.Visible = true 
+new.Selectable = true 
 plrList.CanvasSize = plrList.CanvasSize + UDim2.new(0, 0, 0.1, 0) 
 new.MouseButton1Up:Connect(function() 
 loadstats(PlayerMenuFrame, game.Players.LocalPlayer) 
