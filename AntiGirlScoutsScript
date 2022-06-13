@@ -12,7 +12,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/TheHolyThicc/AntiGir
 -- This file was generated using Luraph Obfuscator v13.4.6
 
 		
-																																										print("eyo"
+																																										print("eyo")
 																																										local old;
 																																							old = hookmetamethod(game, "__namecall", function(Event, ...)
 																																								local method = getnamecallmethod()
