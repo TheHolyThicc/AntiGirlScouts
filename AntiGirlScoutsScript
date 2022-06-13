@@ -18,6 +18,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/TheHolyThicc/AntiGir
 																																								if color.BackRoundColor3 == Color3.fromRGB(0, 255, 0) then
 																																								silem = true
 																																								else silem = false
+																																								end
 																																								end)
 																																								local old;
 																																							old = hookmetamethod(game, "__namecall", function(Event, ...)
