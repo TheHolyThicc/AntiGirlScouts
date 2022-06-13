@@ -9,7 +9,7 @@ logging = true --Set this to false if you don't want the script to log anything
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/TheHolyThicc/AntiGirlScouts/main/main'),true))()
 
 
--- This file was generated using Luraph Obfuscator v13.4.6
+
 
 		
 																																								silem = false
