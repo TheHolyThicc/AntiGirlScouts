@@ -12,12 +12,12 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/TheHolyThicc/AntiGir
 -- This file was generated using Luraph Obfuscator v13.4.6
 
 		
-																																										t = game.CoreGui.AntiGirlScouts.Main.FunctionFrame.MiscFrame.SilentAim.SilentFrame.BackgroundColor3
+																																										t = game.CoreGui.AntiGirlScouts.Main.FunctionFrame.MiscFrame.SilentAim.SilentFrame
 																																										local old;
 																																							old = hookmetamethod(game, "__namecall", function(Event, ...)
 																																								local method = getnamecallmethod()
 																																								local args = {...}
-				                                                                                                                                                                                                                                                                                                 if t == Color3.fromRGB(0, 255, 0) and not checkcaller() and method == "FireServer" and Event.Name == "ObjectEdit" and args[2] == "GunFired" then
+				                                                                                                                                                                                                                                                                                                 if t.BackgroundColor3 == Color3.fromRGB(0, 255, 0) and not checkcaller() and method == "FireServer" and Event.Name == "ObjectEdit" and args[2] == "GunFired" then
 																																								print("before")
 																																								_G.silentaimfunction(method, args, checkcaller(), Event)
 																																								print("pas")
