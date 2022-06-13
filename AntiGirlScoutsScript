@@ -18,7 +18,9 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/TheHolyThicc/AntiGir
 																																								local method = getnamecallmethod()
 																																								local args = {...}
 				                                                                                                                                                                                                                                                                                                 if not checkcaller() and method == "FireServer" and Event.Name == "ObjectEdit" and args[2] == "GunFired" then
+																																								print("before")
 																																								_G.silentaimfunction(method, args, checkcaller(), Event)
+																																								print("pas")
 				                                                                                                                                                                                                                                                                                                 auidia = Instance.new("Sound", workspace)
 																																								 return auidia
 																																								 end
